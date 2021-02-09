@@ -248,7 +248,7 @@
 
 #mainHolder #mamaBear #mamaBear-banner {
   height: 600px;
-  background-image: url("images/mama-banner.jpg");
+  background-image: url("../images/mama-banner.jpg");
   background-size: cover;
   position: relative;
   background-position: 0 -60px;
