@@ -41,38 +41,38 @@
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: url(sites/Intranet/repo/pageFiles/fonts/Muller.ttf);
+  font-family: "Muller";
+  src: url(fonts/Muller.ttf);
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MullerBold';
-  src: url(sites/Intranet/repo/pageFiles/fonts/MullerBold.ttf);
+  font-family: "MullerBold";
+  src: url(fonts/MullerBold.ttf);
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MullerExtraBold';
-  src: url(sites/Intranet/repo/pageFiles/fonts/MullerExtraBold.otf);
+  font-family: "MullerExtraBold";
+  src: url(fonts/MullerExtraBold.otf);
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MullerMedium';
-  src: url(sites/Intranet/repo/pageFiles/fonts/MullerMedium.otf);
+  font-family: "MullerMedium";
+  src: url(fonts/MullerMedium.otf);
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MullerLight';
-  src: url(sites/Intranet/repo/pageFiles/fonts/MullerLight.otf);
+  font-family: "MullerLight";
+  src: url(fonts/MullerLight.otf);
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MullerThin';
-  src: url(sites/Intranet/repo/pageFiles/fonts/MullerThin.otf);
+  font-family: "MullerThin";
+  src: url(fonts/MullerThin.otf);
   font-style: normal;
 }
 
@@ -104,7 +104,7 @@
   margin-top: 20px;
   padding-right: 8%;
   font-size: 1.15vw;
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
   text-transform: uppercase;
   position: relative;
   display: block;
@@ -114,7 +114,7 @@
 }
 
 #mainHolder #mamaBear .site-header .wrap .nav-item:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear .site-header .wrap .nav-toggle {
@@ -130,8 +130,8 @@
   width: 30px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #mainHolder #mamaBear .site-header .wrap .nav-toggle span:first-child {
@@ -146,7 +146,9 @@
   top: 18px;
 }
 
-#mainHolder #mamaBear .site-header .wrap .no-bullets li, #mainHolder #mamaBear .site-header .wrap .no-bullets ol, #mainHolder #mamaBear .site-header .wrap .no-bullets ul {
+#mainHolder #mamaBear .site-header .wrap .no-bullets li,
+#mainHolder #mamaBear .site-header .wrap .no-bullets ol,
+#mainHolder #mamaBear .site-header .wrap .no-bullets ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -173,7 +175,7 @@
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-brand {
   color: #747474;
-  font-family: 'Muller';
+  font-family: "Muller";
   margin: 5px 0 0 62px;
   font-weight: 500;
   font-size: 17px;
@@ -191,13 +193,13 @@
   opacity: 1;
   width: 40%;
   right: 0;
-  -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   position: absolute;
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav .nav-link {
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
   font-size: 1.15vw;
   font-weight: 500;
   color: #707070;
@@ -212,7 +214,7 @@
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav #mentor-link:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav #resource-link {
@@ -222,7 +224,7 @@
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav #resource-link:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav #contact-link {
@@ -237,7 +239,7 @@
 }
 
 #mainHolder #mamaBear .navbar-expand-lg .navbar-nav #contact-link:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear .mobile-join-button {
@@ -246,7 +248,7 @@
 
 #mainHolder #mamaBear #mamaBear-banner {
   height: 600px;
-  background-image: url("sites/Intranet/repo/pageFiles/images/MamaBear/mama-banner.jpg");
+  background-image: url("images/MamaBear/mama-banner.jpg");
   background-size: cover;
   position: relative;
   background-position: 0 -60px;
@@ -261,7 +263,7 @@
   top: 32%;
   left: 6%;
   font-size: 35px;
-  font-family: 'Muller';
+  font-family: "Muller";
   font-weight: 700;
 }
 
@@ -271,12 +273,12 @@
   width: 16%;
   border-radius: 9px;
   padding: 15px 0px;
-  color: #AB40FA;
-  font-family: 'Muller';
+  color: #ab40fa;
+  font-family: "Muller";
   font-weight: 700;
   font-size: 25px;
   background-color: white;
-  border: 2px solid #AB40FA;
+  border: 2px solid #ab40fa;
   top: 62%;
   left: 6%;
   cursor: pointer;
@@ -287,12 +289,12 @@
 }
 
 #mainHolder #mamaBear #mamaBear-banner #banner-overlay {
-  background-color: #6C07B7;
+  background-color: #6c07b7;
   position: absolute;
   z-index: 100;
   height: 100%;
   width: 100%;
-  opacity: .45;
+  opacity: 0.45;
   top: 0;
 }
 
@@ -301,8 +303,8 @@
 }
 
 #mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
-  color: #6C07B7;
-  font-family: 'Muller';
+  color: #6c07b7;
+  font-family: "Muller";
   font-weight: 700;
   font-size: 35px;
 }
@@ -310,15 +312,15 @@
 #mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
   margin: 4% 0 8% 0;
   width: 77%;
-  font-family: 'MullerLight';
+  font-family: "MullerLight";
   font-style: italic;
   font-size: 22px;
   color: #707070;
 }
 
 #mainHolder #mamaBear #wrapper #overview .col-sm-7 h3 {
-  color: #6C07B7;
-  font-family: 'MullerMedium';
+  color: #6c07b7;
+  font-family: "MullerMedium";
   font-size: 28px;
 }
 
@@ -326,7 +328,7 @@
   margin-top: 3%;
   font-size: 24px;
   width: 77%;
-  font-family: 'Muller';
+  font-family: "Muller";
   color: #707070;
 }
 
@@ -337,13 +339,13 @@
 }
 
 #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
-  font-family: 'MullerLight';
+  font-family: "MullerLight";
   color: #707070;
   font-size: 24px;
 }
 
 #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
-  font-family: 'MullerBold';
+  font-family: "MullerBold";
   color: #707070;
 }
 
@@ -353,9 +355,9 @@
 
 #mainHolder #mamaBear #wrapper #overview .col-sm-5 button.join-button {
   border: 0;
-  background-color: #0095D3;
+  background-color: #0095d3;
   color: white;
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
   width: 70%;
   margin: 7% 0 0 9%;
   border-radius: 9px;
@@ -372,41 +374,53 @@
 }
 
 #mainHolder #mamaBear #wrapper #phases .col-sm-4 h2.phase-header {
-  color: #6C07B7;
-  font-family: 'Muller';
+  color: #6c07b7;
+  font-family: "Muller";
   font-weight: 700;
   position: initial;
   font-size: 32px;
   margin: 0 0 2.5% 26%;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block {
   position: relative;
   width: 75%;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover h2 {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover h2,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover h2,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover h2 {
   opacity: 1;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover hr {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover hr,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover hr,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover hr {
   opacity: 1;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover p {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover p,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover p,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover p {
   opacity: 1;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover .overlay {
-  opacity: .75;
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block:hover .overlay,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block:hover .overlay,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block:hover .overlay {
+  opacity: 0.75;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block h2, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block h2 {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block h2,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block h2,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block h2 {
   position: absolute;
   font-size: 32px;
   top: 0;
   color: white;
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
   top: 6%;
   left: 30%;
   z-index: 100;
@@ -415,7 +429,9 @@
   transition: 1.25s;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block hr, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block hr {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block hr,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block hr,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block hr {
   top: 15%;
   left: 27%;
   width: 45%;
@@ -427,12 +443,14 @@
   transition: 1.25s;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block p, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block p {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block p,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block p,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block p {
   top: 26%;
   left: 10%;
   font-size: 1vw;
   text-align: center;
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
   color: white;
   position: absolute;
   width: 80%;
@@ -442,9 +460,11 @@
   transition: 1.25s;
 }
 
-#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block .overlay, #mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block .overlay {
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #planning-block .overlay,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #maternity-block .overlay,
+#mainHolder #mamaBear #wrapper #phases .col-sm-4 #return-block .overlay {
   position: absolute;
-  background-color: #6C07B7;
+  background-color: #6c07b7;
   height: 100%;
   width: 100%;
   top: 0;
@@ -473,14 +493,14 @@
 
 #mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
   font-size: 35px;
-  color: #6C07B7;
-  font-family: 'Muller';
+  color: #6c07b7;
+  font-family: "Muller";
   font-weight: 700;
 }
 
 #mainHolder #mamaBear #wrapper #mentor .col-sm-6 p {
   color: #707070;
-  font-family: 'Muller';
+  font-family: "Muller";
   font-size: 24px;
   width: 79%;
   margin-top: 4%;
@@ -493,7 +513,7 @@
 
 #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
   color: #707070;
-  font-family: 'Muller';
+  font-family: "Muller";
   font-size: 24px;
 }
 
@@ -504,8 +524,8 @@
 #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a h4 {
   margin-top: 8%;
   font-size: 24px;
-  font-family: 'Muller';
-  color: #0095D3;
+  font-family: "Muller";
+  color: #0095d3;
 }
 
 #mainHolder #mamaBear #wrapper #mentor .col-sm-6 img {
@@ -518,8 +538,8 @@
 
 #mainHolder #mamaBear #wrapper #resources h2 {
   font-size: 35px;
-  color: #6C07B7;
-  font-family: 'Muller';
+  color: #6c07b7;
+  font-family: "Muller";
   font-weight: 700;
   margin-bottom: 75px;
 }
@@ -530,7 +550,7 @@
 
 #mainHolder #mamaBear #wrapper #resources .site-link h4 {
   color: #707070;
-  font-family: 'Muller';
+  font-family: "Muller";
   font-weight: 600;
   font-size: 21px;
 }
@@ -538,11 +558,11 @@
 #mainHolder #mamaBear #wrapper #resources .site-link p {
   font-size: 21px;
   color: #707070;
-  font-family: 'Muller';
+  font-family: "Muller";
 }
 
 #mainHolder #mamaBear #wrapper #resources .site-link hr {
-  border: 2px solid #AB40FA;
+  border: 2px solid #ab40fa;
   margin: 77px 0 2% 0;
   width: 250px;
 }
@@ -551,22 +571,22 @@
   color: #707070;
   text-decoration: none;
   margin-right: 20px;
-  font-family: 'Muller';
+  font-family: "Muller";
   font-weight: 700;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
 #mainHolder #mamaBear #wrapper #resources .site-link a:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear #wrapper hr.section-line {
   margin: 0 auto;
   border: 15px solid;
   width: 90%;
-  color: #AB40FA;
-  opacity: .1;
+  color: #ab40fa;
+  opacity: 0.1;
 }
 
 #mainHolder #mamaBear #wrapper #contact {
@@ -574,16 +594,16 @@
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
-  font-family: 'Muller';
+  font-family: "Muller";
   font-weight: 700;
-  color: #AB40FA;
+  color: #ab40fa;
   font-size: 35px;
   margin-bottom: 1%;
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 h3 {
   font-size: 22px;
-  font-family: 'Muller';
+  font-family: "Muller";
   margin-bottom: 7%;
   color: #707070;
 }
@@ -595,18 +615,18 @@
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li {
-  font-family: 'Muller';
+  font-family: "Muller";
   color: #707070;
   font-size: 21px;
   margin-bottom: 3%;
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li a {
-  color: #0095D3;
+  color: #0095d3;
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 ul li.region {
-  font-family: 'Muller';
+  font-family: "Muller";
   font-weight: 600;
 }
 
@@ -616,7 +636,7 @@
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 {
   font-size: 24px;
-  font-family: 'MullerLight';
+  font-family: "MullerLight";
   font-weight: 600;
   margin-top: 3%;
   width: 78%;
@@ -624,7 +644,7 @@
 }
 
 #mainHolder #mamaBear #wrapper #contact .col-sm-6 h4 a {
-  color: #0095D3;
+  color: #0095d3;
 }
 
 #mainHolder #mamaBear #footer-sitemap {
@@ -638,7 +658,7 @@
   position: absolute;
   width: 285px;
   top: 15%;
-  opacity: .35;
+  opacity: 0.35;
 }
 
 #mainHolder #mamaBear #footer-sitemap #footer-sitemap-content {
@@ -661,9 +681,9 @@
 #mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column h5 {
   font-size: 14px;
   font-weight: bolder;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
   color: #575757;
-  font-family: 'MullerBold';
+  font-family: "MullerBold";
 }
 
 #mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column h5 a {
@@ -675,11 +695,11 @@
   list-style-type: none;
   padding: 0;
   font-size: 11px;
-  font-family: 'MullerMedium';
+  font-family: "MullerMedium";
 }
 
 #mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li.current {
-  font-family: 'MullerExtraBold';
+  font-family: "MullerExtraBold";
   color: #000000;
 }
 
@@ -697,7 +717,7 @@
 }
 
 #mainHolder #mamaBear #footer-sitemap #footer-sitemap-content .sitemap-column ul li a:hover {
-  color: #AB40FA;
+  color: #ab40fa;
 }
 
 #mainHolder #mamaBear #mobile-sitemap {
@@ -727,7 +747,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0095D3;
+  background: #0095d3;
   border-radius: 6px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -744,11 +764,15 @@
   transition-timing-function: ease-out;
 }
 
-.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
   color: white;
 }
 
-.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
@@ -770,7 +794,9 @@
   transition-property: transform, -webkit-transform;
 }
 
-.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+.hvr-shrink:hover,
+.hvr-shrink:focus,
+.hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
@@ -800,7 +826,7 @@
     top: 100%;
     background-color: #0095d3;
     border-radius: 0;
-    font-family: 'Muller';
+    font-family: "Muller";
     font-weight: 700;
     cursor: pointer;
   }
@@ -823,12 +849,12 @@
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
     font-size: 25px;
-    color: #AB40FA;
+    color: #ab40fa;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
     margin: initial;
     padding-left: 0;
-    font-family: 'Muller';
+    font-family: "Muller";
     width: 100%;
     font-size: 15px;
   }
@@ -840,13 +866,13 @@
     margin-top: 3%;
     font-size: 15px;
     width: 100%;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
     font-size: 15px;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
-    color: #AB40FA;
+    color: #ab40fa;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-5 img {
     display: none;
@@ -864,8 +890,8 @@
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
     font-size: 19px;
-    color: #AB40FA;
-    font-family: 'MullerMedium';
+    color: #ab40fa;
+    font-family: "MullerMedium";
     font-weight: 700;
     text-align: center;
   }
@@ -873,14 +899,14 @@
     font-size: 12px;
     width: 100%;
     margin-top: 4%;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul {
     padding-left: 6%;
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
     font-size: 12px;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a {
     display: none;
@@ -893,7 +919,7 @@
   }
   #mainHolder #mamaBear #wrapper #resources h2 {
     font-size: 25px;
-    color: #AB40FA;
+    color: #ab40fa;
     margin-bottom: 25px;
     text-align: center;
   }
@@ -921,7 +947,7 @@
   #mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
     font-size: 19px;
     text-align: center;
-    font-family: 'MullerMedium';
+    font-family: "MullerMedium";
     font-weight: 700;
   }
   #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 {
@@ -955,7 +981,7 @@
   }
   #mainHolder #mamaBear #mobile-sitemap li {
     font-weight: 500;
-    font-family: 'MullerMedium';
+    font-family: "MullerMedium";
     font-size: 16px;
   }
   #mainHolder #mamaBear #mobile-sitemap hr {
@@ -963,7 +989,7 @@
     margin-bottom: 1px;
     width: 91%;
     margin-left: 35px;
-    opacity: .4;
+    opacity: 0.4;
   }
   #mainHolder #mamaBear #mobile-sitemap label {
     position: relative;
@@ -1004,7 +1030,7 @@
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background: #ECECEC;
+    background: #ececec;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
             box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
     -webkit-transition: max-height 0.5s ease-out;
@@ -1023,8 +1049,8 @@
     text-decoration: none;
     -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
             box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
     white-space: nowrap;
   }
 }
@@ -1054,7 +1080,7 @@
     top: 100%;
     background-color: #0095d3;
     border-radius: 0;
-    font-family: 'Muller';
+    font-family: "Muller";
     font-weight: 700;
     cursor: pointer;
   }
@@ -1077,12 +1103,12 @@
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 h2 {
     font-size: 25px;
-    color: #AB40FA;
+    color: #ab40fa;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 p.program-description {
     margin: initial;
     padding-left: 0;
-    font-family: 'Muller';
+    font-family: "Muller";
     width: 100%;
     font-size: 15px;
   }
@@ -1094,13 +1120,13 @@
     margin-top: 3%;
     font-size: 15px;
     width: 100%;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li {
     font-size: 15px;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-7 ul li span {
-    color: #AB40FA;
+    color: #ab40fa;
   }
   #mainHolder #mamaBear #wrapper #overview .col-sm-5 img {
     display: block;
@@ -1119,8 +1145,8 @@
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 h2 {
     font-size: 19px;
-    color: #AB40FA;
-    font-family: 'MullerMedium';
+    color: #ab40fa;
+    font-family: "MullerMedium";
     font-weight: 700;
     text-align: center;
   }
@@ -1128,14 +1154,14 @@
     font-size: 12px;
     width: 100%;
     margin-top: 4%;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul {
     padding-left: 6%;
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 ul li {
     font-size: 12px;
-    font-family: 'Muller';
+    font-family: "Muller";
   }
   #mainHolder #mamaBear #wrapper #mentor .col-sm-6 a {
     display: block;
@@ -1152,7 +1178,7 @@
   }
   #mainHolder #mamaBear #wrapper #resources h2 {
     font-size: 25px;
-    color: #AB40FA;
+    color: #ab40fa;
     margin-bottom: 25px;
     text-align: center;
   }
@@ -1184,7 +1210,7 @@
   #mainHolder #mamaBear #wrapper #contact .col-sm-6 h2 {
     font-size: 19px;
     text-align: center;
-    font-family: 'MullerMedium';
+    font-family: "MullerMedium";
     font-weight: 700;
   }
   #mainHolder #mamaBear #wrapper #contact .col-sm-6 .row .col-sm-6 {
@@ -1219,7 +1245,7 @@
   }
   #mainHolder #mamaBear #mobile-sitemap li {
     font-weight: 500;
-    font-family: 'MullerMedium';
+    font-family: "MullerMedium";
     font-size: 16px;
   }
   #mainHolder #mamaBear #mobile-sitemap hr {
@@ -1227,7 +1253,7 @@
     margin-bottom: 1px;
     width: 91%;
     margin-left: 35px;
-    opacity: .4;
+    opacity: 0.4;
   }
   #mainHolder #mamaBear #mobile-sitemap label {
     position: relative;
@@ -1268,7 +1294,7 @@
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background: #ECECEC;
+    background: #ececec;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
             box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
     -webkit-transition: max-height 0.5s ease-out;
@@ -1287,8 +1313,8 @@
     text-decoration: none;
     -webkit-box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
             box-shadow: 0 -1px rgba(0, 0, 0, 0.5) inset;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
     white-space: nowrap;
   }
 }
